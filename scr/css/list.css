@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    width: 100%;
+    height: 122px;
+    background-color: #f2f2f2;
+}
+
+.headerbox {
+    width: 1230px;
+    height: 33px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerbox ul {
+    width: 500px;
+    height: 33px;
+}
+
+.headerul1 li {
+    float: left;
+}
+
+.headerbox li {
+    margin-right: 20px;
+    line-height: 33px;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.headerbox a {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+body a:hover {
+    color: red;
+}
+
+.headerul2 li {
+    float: right;
+}
+
+.headerul2 {
+    float: right;
+}
+
+
+/* 搜索框 */
+
+.search {
+    width: 100%;
+    height: 92px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.search-input {
+    width: 1230px;
+    margin: 0px auto;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+.search-box {
+    width: 750px;
+    height: 40px;
+    margin-left: 300px;
+    line-height: 40px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.search-input input {
+    width: 640px;
+    height: 30px;
+    outline: none;
+    border: 3px solid #ff0036;
+    float: left;
+}
+
+.search-input button {
+    height: 36px;
+    width: 80px;
+    background-color: #ff0036;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    float: left;
+}
+
+
+/* ul */
+
+.search ul {
+    margin-left: 300px;
+}
+
+.search-ul li {
+    float: left;
+    font-size: 12px;
+    border-left: 1px solid #ccc;
+    line-height: 1.1;
+    padding: 0 12px;
+}
+
+.search .search-ul-li1 {
+    border: none;
+}
+
+.search-ul li a {
+    color: #ccc;
+}
+
+.search-ul li a:hover {
+    color: #ff0036;
+}
+
+
+/* 内容块 */
+
+.content {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.main {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.crumb {
+    width: 1190px;
+    height: 39px;
+    margin: 0 auto;
+}
+
+.crumb span {
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.crumb input {
+    outline: none;
+}
+
+.crumb strong {
+    font-weight: 900;
+    color: rgb(20, 19, 19);
+}
+
+.crumb .right {
+    float: right;
+}
+
+
+/* 筛选 */
+
+.sizer {
+    width: 1230px;
+    height: 34px;
+    margin: 0 auto;
+    background: #faf9f9;
+    color: #806f66;
+    overflow: hidden;
+}
+
+.sizer button {
+    float: left;
+    border: 1px solid #ccc;
+    width: 42px;
+    height: 22px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    margin-top: 5px;
+    margin-left: 5px;
+    outline: none;
+}
+
+.sizer-price {
+    color: #ff0036;
+}
+
+
+/* 商品页 */
+
+.cont-cont {
+    width: 1230px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cont-cont ul {
+    width: 1230px;
+}
+
+.cont-cont-item {
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+    background-color: #fff;
+    width: 235px;
+    height: 301px;
+    margin-right: 11px;
+    text-align: center;
+}
+
+.cont-item-box {
+    width: 234px;
+    height: 300px;
+    border: 1px solid #fff;
+}
+
+.cont-item-box:hover {
+    border: 1px solid #FF0036;
+    opacity: .7;
+}
+
+.cont-item-tag {
+    width: 68px;
+    height: 20px;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.cont-item-box img {
+    width: 185px;
+    height: 185px;
+}
+
+.cont-item-title {
+    width: 135px;
+    height: 40px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 8px auto;
+}
+
+.cont-price {
+    float: left;
+    margin-left: 100px;
+    font-size: 18px;
+    color: #FF0036;
+    line-height: 18px;
+}
+
+.cont-sailnumber {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+/* 分页模块 */
+
+.m-style {
+    margin-left: 850px;
+    margin-top: 20px;
+}
+
+.m-style a {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ccc;
+    color: #2953A6;
+    padding: 10px;
+}
+
+.jump-ipt {
+    width: 32px;
+    height: 18px;
+    margin: -2px 2px 0;
+    line-height: 20px;
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.m-style span {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+/* 底部 */
+
+.base {
+    margin-top: 50px;
+    width: 100%;
+    height: 607px;
+    background-color: black;
+    float: left;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+    background-image: url(../../img/未标题-2.png);
+}

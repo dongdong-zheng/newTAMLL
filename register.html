@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMALL注册</title>
+    <link rel="stylesheet" href="../TMALL/scr/css/register.css">
+    <script src="../TMALL/scr/js/require.js" defer async="true" data-main="../TMALL/scr/js/main.js" id="currentpage" currentmod="modregister"></script>
+</head>
+
+<body>
+    <!-- logo -->
+    <div class="hearderlogo">
+        <div class="hearderbox">
+            <a href="index1.html">
+                <img src="https://img.alicdn.com/tfs/TB1_Gn8RXXXXXXqaFXXXXXXXXXX-380-54.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="loginbox">
+        <img src="https://img.alicdn.com/tps/i4/TB1FlVFOEY1gK0jSZFCSuwwqXXa.jpg" alt="">
+        <div class="logindiv">
+            <div class="login-a">
+                <a href="">账号注册</a>
+                <a href="">手机注册</a>
+            </div>
+            <form action="http://localhost/WWW/TMALL/php/registry.php" method="POST" class="from">
+                <span class="one"></span>
+                <p><input type="text" name="username" id="name" placeholder="输入会员名"></p>
+
+                <span class="two"></span>
+                <p><input type="password" name="password" id="password" placeholder="输入会员密码"></p>
+
+                <span class="three"></span>
+                <p><input type="password" name="repass" id="repass" placeholder="再次确认密码"></p>
+
+                <span class="four"></span>
+                <p><input type="text" name="email" id="email" placeholder="请输入邮箱"></p>
+                <input type="submit" name="submit" id="button" value="注册">
+                <ul>
+                    <li><a href="login.htm">请登录</a></li>
+                    <li><a href="">忘记用户名</a></li>
+                    <li><a href="">忘记密码</a></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

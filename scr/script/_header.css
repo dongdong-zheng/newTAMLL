@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.headerbox {
+  width: 1190px;
+  height: 33px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerbox ul {
+  width: 500px;
+  height: 33px;
+}
+
+.headerul1 li {
+  float: left;
+}
+
+.headerbox li {
+  margin-right: 20px;
+  line-height: 33px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.headerbox a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+body a:hover {
+  color: red;
+}
+
+.headerul2 li {
+  float: right;
+}
+
+.headerul2 {
+  float: right;
+}

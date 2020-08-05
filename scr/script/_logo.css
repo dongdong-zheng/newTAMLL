@@ -1,0 +1,209 @@
+.logo {
+  width: 100%;
+  border-bottom: 1px solid #c8baaa;
+}
+
+.logobox {
+  width: 1190px;
+  margin: 0 auto;
+  height: 85px;
+  margin: 0 auto;
+  height: 85px;
+}
+
+#mallLogo {
+  float: left;
+  width: 162px;
+  padding-top: 0;
+  line-height: 18px;
+  position: relative;
+}
+
+.mlogo {
+  padding-right: 7px;
+  float: left;
+  padding-top: 20px;
+}
+
+.mlogo a {
+  width: 118px;
+  height: 40px;
+}
+
+.mlogo a img {
+  width: 118px;
+  height: 40px;
+}
+
+#shopExtra {
+  float: left;
+  position: relative;
+  padding: 15px 0 0;
+  height: 50px;
+}
+
+#shopExtra .slogo {
+  background: -174px -30px no-repeat;
+  float: left;
+  padding: 0 10px;
+  height: 38px;
+  border-left: 1px solid #f0f0f0;
+  width: auto;
+  cursor: pointer;
+}
+
+#shopExtra .slogo a {
+  height: 22px;
+  line-height: 19px;
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 12px;
+  font-family: "\5b8b\4f53";
+  color: #333;
+  font-weight: 700;
+}
+
+#shopExtra .slogo .slogo-extraicon {
+  height: 25px;
+  width: 80px;
+}
+
+#shopExtra .slogo .slogo-extraicon a {
+  height: 22px;
+  line-height: 19px;
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 12px;
+  font-family: "\5b8b\4f53";
+  color: #333;
+  font-weight: 700;
+}
+
+#shopExtra #shop-info {
+  position: relative;
+  float: left;
+  width: 132px;
+  height: 38px;
+  font-weight: 400;
+  padding: 0 10px;
+  border-left: 1px dotted #f0f0f0;
+}
+
+#shopExtra #shop-info .main-info {
+  overflow: hidden;
+  position: relative;
+}
+
+#shopExtra #shop-info .main-info .shopdsr-item {
+  float: left;
+  color: #999;
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+
+#shopExtra #shop-info .main-info .shopdsr-item .shopdsr-title {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+
+#shopExtra #shop-info .main-info .shopdsr-item .shopdsr-score {
+  color: #1f7700;
+  padding-left: 5px;
+  height: 18px;
+  width: 31px;
+  position: relative;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+#shopExtra #shop-info .main-info .shopdsr-item .shopdsr-score s {
+  color: #1f7700;
+  width: 12px;
+  height: 18px;
+  font-size: 10px;
+  position: absolute;
+}
+
+.shopwt {
+  float: left;
+  width: 54px;
+  border-left: 1px solid #f0f0f0;
+  padding: 0 10px;
+  margin: 15px 0 0;
+  position: relative;
+}
+
+.shopwt .shopwt-desc {
+  float: left;
+  width: 40px;
+}
+
+.shopwt .shopwt-desc .shopwt-title {
+  text-align: center;
+  color: #999;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.shopwt .shopwt-desc .shopwt-qr {
+  font-style: normal;
+  font-size: 12px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  color: #999;
+  position: absolute;
+  top: 13px;
+  left: 14px;
+}
+
+.header-extra {
+  width: 697.344px;
+  height: 51px;
+  overflow: hidden;
+}
+
+.header-extra #mallSearch {
+  width: 540px;
+  float: right;
+  width: 540px;
+  height: 36px;
+}
+
+.header-extra #mallSearch .defaultSearch {
+  width: 455px;
+  height: 30px;
+  border: #7A3CE9 3px solid;
+  margin-top: 15px;
+}
+
+.header-extra #mallSearch .defaultSearch #mq {
+  width: 300px;
+  height: 30px;
+  vertical-align: middle;
+  color: #000;
+  margin: 0;
+  z-index: 2;
+  height: 20px;
+  line-height: 20px;
+  outline: 0;
+  border: none;
+  font-weight: 900;
+  padding-top: 5px;
+  box-sizing: content-box;
+}
+
+.header-extra #mallSearch .J_SearchBtn {
+  font-size: 18px;
+  width: 112px;
+  height: 30px;
+  line-height: 36px;
+  overflow: visible;
+  background: #7A3CE9;
+  float: right;
+  border: none;
+  color: #fff;
+}
